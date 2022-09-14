@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Licenses</title>
+  <meta property="og:title" content="Licenses" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      padding: 0;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+
+    .dataTables_wrapper {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  </style>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    data-tag="font" />
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div>
+    <link href="./purchase-links.css" rel="stylesheet" />
+
+    <div class="purchase-links-container">
+      <header data-role="Header" class="purchase-links-header">
+        <div class="purchase-links-container1">
+          <img alt="logo" src="https://whop.com/whop_logo_main.svg" loading="lazy" class="purchase-links-image" />
+          <div class="purchase-links-nav">
+            <nav class="navigation-links-nav navigation-links-root-class-name8">
+              <span class="navigation-links-text">
+                <a href="/dashboard">Dashboard</a>
+              </span>
+              <% if (user.admin) { %>
+                <span class="navigation-links-text1">
+                  <a href="/licenses">Licenses</a>
+                </span>
+                <span class="navigation-links-text2">
+                  <a href="/plans">Plans</a>
+                </span>
+                <span class="navigation-links-text3">
+                  <a href="/passes">Passes</a>
+                </span>
+                <span class="navigation-links-text4">
+                  <a href="/purchaseLinks">Purchase Links</a>
+                </span>
+              <% } %>
+            </nav>
+          </div>
+        </div>
+        <div class="purchase-links-btn-group">
+          <a href="/auth/logout" class="button">Logout</a>
+        </div>
+        <div data-type="BurgerMenu" class="purchase-links-burger-menu">
+          <svg viewBox="0 0 1024 1024" class="purchase-links-icon">
+            <path
+              d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
+            </path>
+          </svg>
+        </div>
+        <div data-type="MobileMenu" class="purchase-links-mobile-menu">
+          <nav class="purchase-links-nav1">
+            <div class="purchase-links-container2">
+              <img alt="image" src="https://whop.com/whop_logo_main.svg" class="purchase-links-image1" />
+              <div data-type="CloseMobileMenu" class="purchase-links-close-mobile-menu">
+                <svg viewBox="0 0 1024 1024" class="purchase-links-icon02">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
+                  </path>
+                </svg>
+              </div>
+            </div>
+            <nav class="navigation-links-nav navigation-links-root-class-name9">
+              <span class="navigation-links-text">
+                <a href="/dashboard">Dashboard</a>
+              </span>
+              <% if (user.admin) { %>
+                <span class="navigation-links-text1">
+                  <a href="/licenses">Licenses</a>
+                </span>
+                <span class="navigation-links-text2">
+                  <a href="/plans">Plans</a>
+                </span>
+                <span class="navigation-links-text3">
+                  <a href="/passes">Passes</a>
+                </span>
+                <span class="navigation-links-text4">
+                  <a href="/purchaseLinks">Purchase Links</a>
+                </span>
+              <% } %>
+            </nav>
+          </nav>
+        </div>
+      </header>
+      <div class="purchase-links-feature-card">
+        <h2 class="purchase-links-text">Licenses</h2>
+        <table id="table_id" class="display">
+          <thead>
+              <tr>
+                  <th>License</th>
+                  <th>Discord ID</th>
+                  <th>Discord Username</th>
+              </tr>
+          </thead>
+          <tbody>
+              <% licenses.forEach(license => { %>
+                <tr>
+                    <td><%= license.key %></td>
+                    <td><%= license.discord.discord_account_id %></td>
+                    <td><%= license.discord.username %></td>
+                </tr>
+              <% }) %>
+          </tbody>
+      </table>
+      </div>
+    </div>
+  </div>
+  <script data-section-id="header" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready( function () {
+        $('#table_id').DataTable();
+    });
+  </script>
+</body>
+
+</html>

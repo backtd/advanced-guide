@@ -1,0 +1,34 @@
+{
+  "name": "advanced-guide",
+  "version": "1.0.0",
+  "description": "Whop Advanced Guide which shows how to create your own panel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backtd/advanced-guide.git"
+  },
+  "keywords": [
+    "whop"
+  ],
+  "author": "backt#1918",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backtd/advanced-guide/issues"
+  },
+  "homepage": "https://github.com/backtd/advanced-guide#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.5.4",
+    "node-fetch": "^2.6.7",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "path": "^0.12.7"
+  }
+}
